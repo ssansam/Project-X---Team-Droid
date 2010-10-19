@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="main_title">The Trivia Game</string>
+    <string name="app_name">TheTrivia</string>
+<string name="continue_label">Continue</string>
+<string name="new_game_label">New Game</string>
+<string name="about_label">About</string>
+<string name="exit_label">Exit</string>
+
+<string name="about_title">About The Trivia Game</string>
+<string name="about_text">This Game was created to test how much you know about random trivia</string>
+<color name="red_color">#FF0000</color>
+
+<string name="mult_choice_title">The Trivia Game</string>
+<string name="choice_1">Choice One</string>
+<string name="choice_2">Choice Two</string>
+<string name="choice_3">Choice Three</string>
+<string name="choice_4">Choice Four</string>
+
+
+
+
+
+
+<string name="settings_title">Extriviaganza Settings</string>
+<string name="settings_label">Exit</string>
+<string name="settings_shortcut">s</string>
+<string name="new_game_title">Difficulty</string>
+<string name="easy_label">Easy</string>
+<string name="medium_label">Medium</string>
+<string name="hard_label">Hard</string>
+</resources>

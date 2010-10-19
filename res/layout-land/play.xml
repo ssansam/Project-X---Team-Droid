@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<RelativeLayout android:id="@+id/RelativeLayout01"
+	android:layout_width="fill_parent" android:layout_height="fill_parent"
+	xmlns:android="http://schemas.android.com/apk/res/android"
+	android:background="@drawable/wall_570">
+	
+	
+
+
+
+
+
+	
+
+
+<RadioGroup android:layout_width="wrap_content" android:layout_height="wrap_content" android:id="@+id/group01"><RadioButton android:layout_below="@+id/group01" android:layout_height="wrap_content" android:layout_width="wrap_content" android:id="@+id/a" android:text="@string/choice_1"></RadioButton><RadioButton android:layout_width="wrap_content" android:layout_height="wrap_content" android:id="@+id/b" android:text="@string/choice_2"></RadioButton>
+<RadioButton android:layout_width="wrap_content" android:layout_height="wrap_content" android:id="@+id/c" android:text="@string/choice_3"></RadioButton>
+<RadioButton android:layout_width="wrap_content" android:layout_height="wrap_content" android:id="@+id/d" android:text="@string/choice_4"></RadioButton>
+</RadioGroup>
+
+<Button android:layout_toRightOf="@+id/group01" android:layout_height="wrap_content" android:layout_width="wrap_content" android:text="Next" android:id="@+id/Next" android:layout_below="@+id/Title"></Button><TextView android:id="@+id/TextView01" android:layout_toRightOf="@+id/group01" android:layout_height="wrap_content" android:layout_width="wrap_content"></TextView><TextView android:layout_toRightOf="@+id/group01" android:layout_height="wrap_content" android:layout_width="wrap_content" android:layout_below="@+id/TextView01" android:textSize="30dip" android:textColor="@color/red_color" android:text="@string/mult_choice_title" android:id="@+id/Title"></TextView>
+
+
+</RelativeLayout>
